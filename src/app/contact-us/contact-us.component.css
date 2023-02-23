@@ -1,0 +1,51 @@
+/*
+============================================
+, Title: contact.component.scss for in-n-out-books
+; Author: Chad ONeal
+; Date: 01/11/2023
+; Description: contact.component.scss for in-n-out-books
+===========================================
+*/
+
+/* stylings for icons above contact info
+*/
+mat-card-title {
+  margin-left: 46%;
+  color:#AAAAAA;
+}
+
+mat-card-content {
+  margin-left: 2%;
+  font-size: 25px;
+}
+
+p {
+  font-size: 25px;
+}
+
+/* styling for "contact us" to be centered on page
+*/
+.location {
+  text-align: center;
+}
+
+/* styling for page
+*/
+.align-center {
+  text-align: center;
+}
+
+/*
+styling for container on page
+*/
+.contact-container {
+  width: 100%;
+  padding-top: 50px;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,32 @@
+/*
+============================================
+, Title: app.component.css for in-n-out-books
+; Author: Chad ONeal
+; Date: 01/11/2023
+; Description: css styling for in-n-out-books
+===========================================
+*/
+
+.logo {
+  margin-top: 100px;
+
+}
+
+img {
+  border-radius: 8%;
+}
+
+.main-container {
+  padding-top: 25px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.mat-toolbar {
+  background-color:#2A623D;
+  height: 160px
+}
+
+.main-container {
+  background-color: transparent;
+}

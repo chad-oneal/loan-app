@@ -1,0 +1,43 @@
+<!--
+=========================================
+; Title: app.component.html
+; Author: Richard Krasso
+; Modified by Chad ONeal
+; Date: 02/02/2023
+; Description: html for in-n-out-books
+==========================================
+-->
+
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <div class="logo">
+      <img src="../assets/piggy.jpg" height="140px" />
+    </div>
+
+    <div style="width: 80%; margin-top: 97px; margin-left: 10%;">
+    <div fxLayout="row wrap"  fxLayoutAlign="end start">
+      <button mat-button routerLink="/" style="font-size: 34px; color:#AAAAAA;">Home</button>
+      <button mat-button routerLink="/about"  style="font-size: 34px; color:#AAAAAA;">About</button>
+      <button mat-button routerLink="/contact" style="font-size: 34px; color:#AAAAAA;">Contact</button>
+    </div>
+  </div>
+  </mat-toolbar-row>
+</mat-toolbar>
+
+
+<br>
+<br>
+<div fxLayout="row wrap">
+  <div fxFlex>
+    <mat-card class="main-container">
+      <br />
+      <br />
+      <mat-card-content>
+        <router-outlet></router-outlet>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>
+
+
+
