@@ -1,32 +1,35 @@
 /*
 ============================================
-, Title: app.component.css for in-n-out-books
+, Title: app.component.css for loan-app
 ; Author: Chad ONeal
-; Date: 01/11/2023
-; Description: css styling for in-n-out-books
+; Date: 02/23/2023
+; Description: css styling for loan-app
 ===========================================
 */
 
+/* stylings for piggy pic top left of page
+*/
 .logo {
   margin-top: 100px;
-
 }
 
 img {
   border-radius: 8%;
 }
 
+/* stylings for the container on the page
+*/
 .main-container {
   padding-top: 25px;
   width: 80%;
   margin: 0 auto;
 }
 
+/* stylings for the address and phone numbers
+*/
 .mat-toolbar {
   background-color:#2A623D;
   height: 160px
 }
 
-.main-container {
-  background-color: transparent;
-}
+

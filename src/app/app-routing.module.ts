@@ -3,7 +3,7 @@
 , Title: app-routing.module.ts
 ; Author: Chad ONeal
 ; Date: 02/23/2023
-; Description: App routing module for in-n-out-books
+; Description: App routing module for loan-app
 +===========================================
 */
 

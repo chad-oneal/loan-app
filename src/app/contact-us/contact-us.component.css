@@ -1,9 +1,9 @@
 /*
 ============================================
-, Title: contact.component.scss for in-n-out-books
+, Title: contact-us.component.css for loan-app
 ; Author: Chad ONeal
 ; Date: 01/11/2023
-; Description: contact.component.scss for in-n-out-books
+; Description: contact-us.component.css loan-app
 ===========================================
 */
 
@@ -19,6 +19,8 @@ mat-card-content {
   font-size: 25px;
 }
 
+/* stylings for text on page
+*/
 p {
   font-size: 25px;
 }

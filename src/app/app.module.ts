@@ -2,13 +2,12 @@
 ============================================
 ; Title: app.module.ts
 ; Author: Chad ONeal
-; Date: 02/09/2023
-; Description: app.module.ts for in-n-out-books
+; Date: 02/23/2023
+; Description: app.module.ts for loan-app
 ============================================
 */
 
 // import statements
-
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
@@ -31,6 +30,7 @@ import { LoanCalculatorComponent } from './loan-calculator/loan-calculator.compo
 import { InterestComponent } from './interest/interest.component';
 import { MonthlyPaymentComponent } from './monthly-payment/monthly-payment.component';
 
+// module declarations
 @NgModule({
   declarations: [
     AppComponent,
@@ -40,6 +40,8 @@ import { MonthlyPaymentComponent } from './monthly-payment/monthly-payment.compo
     InterestComponent,
     MonthlyPaymentComponent
   ],
+
+  // imports
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -61,4 +63,6 @@ import { MonthlyPaymentComponent } from './monthly-payment/monthly-payment.compo
   providers: [],
   bootstrap: [AppComponent]
 })
+
+// export statement
 export class AppModule { }

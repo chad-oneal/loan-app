@@ -1,3 +1,12 @@
+/*
+============================================
+, Title: test.ts
+; Author: Chad ONeal
+; Date: 02/23/2023
+; Description: test.ts for loan-app
++===========================================
+*/
+
 // This file is required by karma.conf.js and loads recursively all the .spec and framework files
 
 import 'zone.js/dist/zone-testing';

@@ -1,3 +1,12 @@
+/*
+============================================
+, Title: polyfill.ts
+; Author: Chad ONeal
+; Date: 02/23/2023
+; Description: polyfill.ts for loan-app
++===========================================
+*/
+
 /**
  * This file includes polyfills needed by Angular and is loaded before the app.
  * You can add your own extra polyfills to this file.

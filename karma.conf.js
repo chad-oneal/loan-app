@@ -1,3 +1,12 @@
+/*
+============================================
+, Title: karma.conf.js
+; Author: Chad ONeal
+; Date: 02/23/2023
+; Description: karma.conf.js for loan-app
+============================================
+*/
+
 // Karma configuration file, see link for more information
 // https://karma-runner.github.io/1.0/config/configuration-file.html
 

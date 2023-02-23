@@ -1,13 +1,30 @@
+/*
+============================================
+, Title: about.component.css for loan-app
+; Author: Chad ONeal
+; Date: 02/23/2023
+; Description: css styling for loan-app
+===========================================
+*/
+
+/*styles the text on page
+*/
 p {
   font-size: 20px;
 }
 
+/* styles getting in touch is easy message
+*/
 h1 {
   font-weight: bold;
   font-size: 30px;
   color: #86b300;
 }
 
+/* styles hand and money image on page
+*/
 img {
   margin-top: 15%;
+  height: 250px;
+  margin-left: 15%;
 }
