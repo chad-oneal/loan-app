@@ -7,4 +7,59 @@
 ==============================================
 -->
 
-<p>loan-calculator works!</p>
+<mat-card class="mat-elevation-z0">
+  <p>Welcome to Loan App!</p>
+  <mat-card-content class="mat-elevation-z0">
+    <div fxLayout="row wrap">
+
+      <!-- form inputs -->
+      <div fxFlex>
+        <mat-card class="mat-elevation-z0">
+          <mat-card-title></mat-card-title>
+          <mat-card-content class="align-center">
+
+            <form fxLayout="column" class="loan-form" [formGroup]="loanForm">
+
+              <mat-form-field fxFlex appearance="fill">
+                <mat-label>Loan Amount</mat-label>
+                <input  type="text" placeholder="ex: 100000" name="loanAmount" matInput formControlName="loanAmount" />
+              </mat-form-field>
+
+              <mat-form-field fxFlex appearance="fill">
+                <mat-label>Interest Rate</mat-label>
+                <input type="text" placeholder="ex: 3.25" name="interestRate" matInput formControlName="interestRate" />
+              </mat-form-field>
+
+              <mat-form-field fxFlex appearance="fill">
+                <mat-label>Number of Years</mat-label>
+                <input type="text" placeholder="ex: 30"name="numOfYears" matInput formControlName="numOfYears" />
+              </mat-form-field>
+
+              <br>
+              <!-- Submit button -->
+              <button mat-raised-button style="background-color:#2A623D; color: #AAAAAA; font-size: 26px;" (click)="calculateLoan()">Calculate</button>
+            </form>
+          </mat-card-content>
+        </mat-card>
+      </div>
+
+      <!-- interest and monthly payment results -->
+      <div fxFlex class="results">
+        <mat-card class="mat-elevation-z0">
+          <mat-card-title></mat-card-title>
+          <mat-card-content class="align-center">
+
+            <app-monthly-payment [monthlyPayment]="monthlyPayment"></app-monthly-payment>
+
+            <app-interest [interest]="interest"></app-interest>
+
+            <button mat-button style="margin-top: 4.5%; width: 47%; margin-left: 29%;" (click)="clearEntries()">Clear</button>
+
+          </mat-card-content>
+
+        </mat-card>
+      </div>
+    </div>
+
+  </mat-card-content>
+</mat-card>

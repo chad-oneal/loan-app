@@ -10,7 +10,7 @@
 <mat-toolbar color="primary">
   <mat-toolbar-row>
     <div class="logo">
-      <img src="../assets/piggy.jpg" height="140px" />
+      <img src="../assets/Slytherin-Emblema.png" style="height: 158px; margin-left: -21%">
     </div>
 
     <div style="width: 80%; margin-top: 97px; margin-left: 10%;">
@@ -29,8 +29,11 @@
 <div fxLayout="row wrap">
   <div fxFlex>
     <mat-card class="main-container">
-      <br />
-      <br />
+      <mat-card-title>
+        {{ assignment }}
+      </mat-card-title>
+      <br>
+      <br>
       <mat-card-content>
         <router-outlet></router-outlet>
       </mat-card-content>

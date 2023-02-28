@@ -7,4 +7,14 @@
 ==============================================
 -->
 
-<p>monthly-payment works!</p>
+<!-- section for monthly payment display on page-->
+<div class="container">
+  <div style="font-size:24px; margin-left: 4%;">
+    Your monthly payment:
+  </div>
+  <br>
+  <div style="font-size: 48px; color: #86b300; margin-left: 15%; margin-top: 2%;">
+    {{ "$" + (monthlyPayment | number:'1.2-2') }}
+  </div>
+</div>
+<br><br>

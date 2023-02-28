@@ -7,4 +7,14 @@
 ==============================================
 -->
 
-<p>interest works!</p>
+<!--displays total interest amount on page-->
+<div class="container">
+  <div style="font-size: 24px;">
+    Total Amount of Interest Paid:
+  </div>
+  <br>
+  <div style="font-size: 48px; color: #86b300; margin-left: 17%; margin-top: 2%;">
+    {{ "$" + (interest | number:'1.2-2') }}
+  </div>
+</div>
+<br>

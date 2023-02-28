@@ -6,3 +6,9 @@
 ; Description: monthly-payment.component.css for loan-app
 =========================================================
 */
+
+/* styles for main container on page
+*/
+.container {
+  margin-left: 32%;
+}

@@ -6,3 +6,26 @@
 ; Description: contact.component.scss for loan-app
 ==========================================================
 */
+
+/* stylings for clear button
+*/
+button {
+  background-color: #AAAAAA;
+  color: #2A623D;
+  font-size: 28px;
+}
+
+/* stylings for Welcome to Loan App message
+*/
+p {
+  margin-bottom: 3%;
+  color: #CCA43D;
+  font-size: 28px;
+  margin-left: 45%;
+}
+
+
+
+
+
+

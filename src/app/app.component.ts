@@ -19,5 +19,7 @@ import { Component } from '@angular/core';
 
 // export statement
 export class AppComponent {
-  title = 'loan-app';
+  assignment: string;
+  constructor() {
+    this.assignment = ''   }
 }

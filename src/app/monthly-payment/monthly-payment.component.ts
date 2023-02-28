@@ -8,7 +8,7 @@
 */
 
 // import statement
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 // tells which css and html files to use
 @Component({
@@ -19,6 +19,8 @@ import { Component, OnInit } from '@angular/core';
 
 // export statement
 export class MonthlyPaymentComponent implements OnInit {
+
+  @Input() monthlyPayment: number;
 
   constructor() { }
 

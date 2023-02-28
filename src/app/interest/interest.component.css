@@ -6,3 +6,9 @@
 ; Description: interest.component.css for loan-app
 ===========================================
 */
+
+/* styling for total interest amount displayed on page
+*/
+.container {
+  margin-left: 30%;
+}
