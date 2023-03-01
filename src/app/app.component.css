@@ -15,7 +15,9 @@
 }
 
 img {
-  border-radius: 8%;
+  height: 158px;
+  margin-left: -21%;
+  margin-top: 2%;
 }
 
 /* stylings for the container on the page
@@ -31,6 +33,11 @@ img {
 .mat-toolbar {
   background-color:#2A623D;
   height: 160px
+}
+
+button {
+  font-size: 34px;
+  color:#AAAAAA;
 }
 
 
